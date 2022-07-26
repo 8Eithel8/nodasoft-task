@@ -1,0 +1,12 @@
+.page {
+    background-color: #EBECEF;
+    min-width:  320px;
+}
+
+.page__container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+    background-color: #C0DBD9;
+    min-height: 900px;
+}
