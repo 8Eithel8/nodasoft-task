@@ -24,7 +24,7 @@
 }
 
 .grid__item:before {
-    content: counters(css-counters, " ") " ";
+    content: counter(css-counters);
     counter-increment: css-counters;
     color: white;
     font-family: 'Roboto', 'Arial', sans-serif;
