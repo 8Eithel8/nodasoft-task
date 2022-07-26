@@ -1,0 +1,24 @@
+.block {
+    width: 100%;
+    min-height: 100px;
+    background: #7FAFF7;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.block__button {
+    max-width: 206px;
+    height: 39px;
+    background-color: #A5C7F9;
+    border-radius: 5px;
+    border: none;
+    text-align: start;
+    padding: 8px 15px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
