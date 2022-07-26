@@ -1,4 +1,4 @@
-flex__list {
+.flex__list {
     display: flex;
     justify-content: space-between;
     padding: 30px;
@@ -30,4 +30,6 @@ flex__list {
 
 .flex__item {
     width: 100%;
+    max-width: 255px;
+    height: 40%;
 }
