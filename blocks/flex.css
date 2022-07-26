@@ -1,6 +1,5 @@
 .flex__list {
     display: flex;
-    justify-content: space-between;
     padding: 30px;
     gap: 30px;
     list-style: none;
@@ -26,10 +25,4 @@
     width: 100%;
     height: 100%;
     background-color: #0d89b0;
-}
-
-.flex__item {
-    width: 100%;
-    max-width: 255px;
-    height: 40%;
 }
