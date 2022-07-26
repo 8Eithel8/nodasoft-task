@@ -11,6 +11,13 @@
     justify-content: center;
 }
 
+@media (max-width: 479px) {
+    .popup {
+        width: 280px;
+        height: 280px;
+    }
+}
+
 .popup__close {
     position: absolute;
     content: '';

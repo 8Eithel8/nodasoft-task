@@ -5,7 +5,7 @@
     gap: 30px;
     list-style: none;
     background-color: #88B5BF;
-    margin-bottom: 100px;
+    margin: 0 0 100px 0;
 }
 
 .flex__item {

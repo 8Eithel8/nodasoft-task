@@ -1,15 +1,19 @@
 .grid {
-    margin: 15px 0;
-}
-
-.grid__list {
     display: grid;
-    list-style: none;
     grid-template-columns: 2.44fr 3.69fr 1fr;
     grid-template-rows: repeat(2, 198px);
     gap: 15px;
     background: #B3F95A;
     padding: 0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 62px;
+    color: white;
+    margin: 15px 0;
+    list-style-type: none;
+    counter-reset: css-counters 0;
 }
 
 .grid__item {
@@ -17,6 +21,11 @@
     align-items: center;
     justify-content: center;
     background-color: #8AD191;
+}
+
+.grid__item:before {
+    content: counters(css-counters, " ") " ";
+    counter-increment: css-counters;
     color: white;
     font-family: 'Roboto', 'Arial', sans-serif;
     font-style: normal;
